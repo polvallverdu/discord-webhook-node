@@ -1,5 +1,3 @@
-const fetch = require('node-fetch');
-
 module.exports = (hookURL, payload) => new Promise((resolve, reject) => {
     fetch(hookURL, {
         method: 'POST',
